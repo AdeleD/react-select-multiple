@@ -7,14 +7,6 @@ Behind the scenes an hidden tag `<select>` is updated with your selected options
 
 <img src="./docs/img/example.png" alt="Example" />
 
-## Installation
-
-Install `react-multiselect` with [npm](https://www.npmjs.com/):
-
-```
-$ npm install react-multiselect
-```
-
 For [CommonJS](http://wiki.commonjs.org/wiki/CommonJS) users:
 
 ```javascript
