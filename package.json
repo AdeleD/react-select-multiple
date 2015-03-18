@@ -1,0 +1,26 @@
+{
+  "name": "react-multiselect",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adèle Delamarche <adele.delamarche@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.8.2"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "flux": "^2.0.1",
+    "gulp": "^3.8.11",
+    "keymirror": "^0.1.1",
+    "object-assign": "^2.0.0",
+    "react": "^0.12.2",
+    "reactify": "^1.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
