@@ -3,7 +3,7 @@
 **A ReactJS component to render a multiselect (with a filter).**
 
 This component creates a list of checkboxes to select options.
-Behind the scenes an hidden tag <select> is updated with your selected options.
+Behind the scenes an hidden tag `<select>` is updated with your selected options.
 
 <img src="./docs/img/example.png" alt="Example" />
 
@@ -23,7 +23,7 @@ var ReactMultiselect = require('react-multiselect');
 
 ## Options
 
-* list [array] (required): the initial list of options as an array of objects like that:
+* list (required) [array]: the initial list of options as an array of objects like that:
 
 ```javascript
 [
@@ -35,7 +35,7 @@ var ReactMultiselect = require('react-multiselect');
 ]
 ```
 
-* selectors [bool]: if set to true, it display links to select all/none options in one click
+* selectors [bool]: if set to true, it display links to select all/none options
 * selectAllLabel [string]: the "select all" label
 * selectNoneLabel [string]: the "select none" label
 * checkedByDefault [array]: a list of preselected options. Example:
@@ -58,4 +58,4 @@ $ git clone git@github.com:AdeleD/react-multiselect.git
 $ cd react-multiselect
 ```
 
-Open the file [example/index.html](http://github.com/AdeleD/react-multiselect/example/index.html) to see the result.
+Open the file [example/index.html](https://github.com/AdeleD/react-multiselect/blob/master/example/index.html) to see the result.
