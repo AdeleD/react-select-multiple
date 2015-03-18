@@ -23,7 +23,7 @@ var ReactMultiselect = require('react-multiselect');
 
 ## Options
 
-* list (required) [array]: the initial list of options as an array of objects like that:
+* **list (required) [array]:** the initial list of options as an array of objects like that:
 
 ```javascript
 [
@@ -35,10 +35,10 @@ var ReactMultiselect = require('react-multiselect');
 ]
 ```
 
-* selectors [bool]: if set to true, it display links to select all/none options
-* selectAllLabel [string]: the "select all" label
-* selectNoneLabel [string]: the "select none" label
-* checkedByDefault [array]: a list of preselected options. Example:
+* **selectors [bool]:** if set to true, it display links to select all/none options
+* **selectAllLabel [string]:** the "select all" label
+* **selectNoneLabel [string]:** the "select none" label
+* **checkedByDefault [array]:** a list of preselected options. Example:
 
 ```javascript
 [
@@ -47,7 +47,7 @@ var ReactMultiselect = require('react-multiselect');
 ]
 ```
 
-* filterPlaceholder [string]: a placeholder for the input filter
+* **filterPlaceholder [string]:** a placeholder for the input filter
 
 ## Demo
 
