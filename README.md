@@ -7,10 +7,18 @@ Behind the scenes an hidden tag `<select>` is updated with your selected options
 
 <img src="./docs/img/example.png" alt="Example" />
 
+## Installation
+
+Install `react-select-multiple` with [npm](https://www.npmjs.com/):
+
+```
+$ npm install react-select-multiple
+```
+
 For [CommonJS](http://wiki.commonjs.org/wiki/CommonJS) users:
 
 ```javascript
-var ReactMultiselect = require('react-multiselect');
+var Multiselect = require('react-select-multiple');
 ```
 
 ## Options
@@ -46,8 +54,8 @@ var ReactMultiselect = require('react-multiselect');
 Clone the repository and move into:
 
 ```console
-$ git clone git@github.com:AdeleD/react-multiselect.git
-$ cd react-multiselect
+$ git clone git@github.com:AdeleD/react-select-multiple.git
+$ cd react-select-multiple
 ```
 
-Open the file [example/index.html](https://github.com/AdeleD/react-multiselect/blob/master/example/index.html) to see the result.
+Open the file [example/index.html](https://github.com/AdeleD/react-select-multiple/blob/master/example/index.html) to see the result.
