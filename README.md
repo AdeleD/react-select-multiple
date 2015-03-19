@@ -1,4 +1,4 @@
-# react-multiselect
+# react-select-multiple
 
 **A ReactJS component to render a multiselect (with a filter).**
 
