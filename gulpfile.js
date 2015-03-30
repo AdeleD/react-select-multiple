@@ -3,6 +3,7 @@ var browserify = require('browserify');
 var reactify   = require('reactify');
 var source     = require('vinyl-source-stream');
 var buffer     = require('vinyl-buffer');
+var uglify     = require('gulp-uglify');
 
 gulp.task('watch', function() {
   gulp.watch('./js/**/*.js', ['app', 'example']);
@@ -15,6 +16,7 @@ gulp.task('app', function() {
     .bundle()
     .pipe(source('build.js'))
     .pipe(buffer())
+    .pipe(uglify())
     .pipe(gulp.dest('./build'));
 });
 
@@ -24,6 +26,7 @@ gulp.task('example', function() {
     .bundle()
     .pipe(source('example.js'))
     .pipe(buffer())
+    .pipe(uglify())
     .pipe(gulp.dest('./example'));
 });
 
